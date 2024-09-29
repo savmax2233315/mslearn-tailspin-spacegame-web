@@ -7,9 +7,10 @@
     "rimraf": "2.6.1"
   },
   "dependencies": {
+    "node-sass": "^9.0.0",
     "sass": "^1.79.4"
   },
-  "scripts" : {
-    "dev" : "dotnet run --configuration Release --no-build --project Tailspin.SpaceGame.Web"
+  "scripts": {
+    "dev": "dotnet run --configuration Release --no-build --project Tailspin.SpaceGame.Web"
   }
 }
